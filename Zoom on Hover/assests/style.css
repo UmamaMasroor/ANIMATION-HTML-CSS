@@ -1,0 +1,14 @@
+body{
+    background-color:rgb(216, 180, 185) ;
+}
+.img{
+    overflow: hidden;
+}
+.img img{
+    width:50%;
+    height: 50%;
+    transition: scale 400ms;
+}
+.img:hover img{
+    scale: 120%;
+}
